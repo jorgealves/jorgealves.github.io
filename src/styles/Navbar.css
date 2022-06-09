@@ -1,0 +1,21 @@
+
+header{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+nav>ul{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 60px;
+}
+
+.logo {
+    width: clamp(150px, 15vw, 25vw);
+    aspect-ratio: 818/133;
+    background-image: url('../Assets/logoDark.gif');
+    background-size: cover;
+}

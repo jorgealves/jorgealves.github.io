@@ -1,8 +1,16 @@
 import React from 'react';
-import './styles/App.css';
+import { Routes, Route } from 'react-router-dom';
+import { Layout } from './Pages/Layout';
+import Home  from './Pages/Home'
 
-function App() {
-  return (<></>);
+export default function App() {
+  return (
+    <>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+      </Routes>
+    </>
+  )
 }
-
-export default App;
