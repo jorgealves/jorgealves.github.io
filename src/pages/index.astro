@@ -1,0 +1,70 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2>Hey There! 👋</h2>
+			<h1>I'm Jorge Alves!</h1>
+			<p>
+				I'm a Backend Engineer.
+			</p>
+			<p>Whether if you are a startup founder, a fellow developer, or just someone passionate about technology, I'm here to share insights and experiences.
+			</p>
+			<p>I’m a software engineer who cares as much about how things are built as why they are built.</p>
+			<p>
+				Over the years, I’ve worked across infrastructure, backend systems, and automation,
+				often at the intersection of engineering rigour, pragmatism, and continuous improvement.
+			</p>
+			<p>
+				I enjoy building systems that are reliable, secure, and maintainable,
+				but I’m equally interested in the decisions, trade-offs, and conversations that lead to those systems.
+			</p>
+			<p>
+				I see engineering as more than writing code.
+				It’s about understanding constraints, communicating clearly,
+				and making deliberate choices that age well over time.</br>
+				<ul>
+					<li>Clarity over cleverness – readable systems scale better than impressive ones.</li>
+					<li>Automation with intent – tooling should remove friction, not add complexity.</li>
+					<li>Security and reliability by default – not as afterthoughts.</li>
+					<li>Learning in public – reflection is a powerful tool for growth.</li>
+				</ul>
+				Much of my work revolves around infrastructure, automation, and platform thinking, 
+				but I enjoy moving across the stack when it helps solve real problems. 
+			</p>
+			<p>
+				Why this site exists:</br>
+
+				This website serves two purposes:
+				<ul>
+					<li>First, it’s my portfolio: a place to share proof of concepts, experiments, and work I’m proud of.</li>
+					<li>
+						Second, and just as important, it’s a writing space. 
+						Writing helps me slow down, think clearly, and articulate ideas that are often left implicit 
+						in day-to-day engineering work. 
+						Through short posts and reflections, I explore lessons learned, 
+						challenges faced, and perspectives gained throughout my journey as an engineer.
+					</li>
+				</ul>
+			</p>
+			<p><u>This is not a place for perfect answers, it's a place for honest thinking.</u></p>
+			<p>
+				Outside the code I believe good engineers are shaped by more than their tools.</br>
+				Curiosity, patience, and empathy matter just as much as technical skill. 
+				I try to bring those qualities into my work, my collaborations, and the way I continue to learn.</br>
+				If something here resonates with you: whether it’s a project, a post, or a way of thinking, feel free to reach out. 📟
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
